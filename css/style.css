@@ -54,7 +54,7 @@ img {
 
 @media (max-width: 426px) {
     .container-fluid {
-        height: 550px;
+        height: 600px;
         background-image: url(../img/03.jpg);
         background-size: cover;
     }
@@ -73,7 +73,7 @@ img {
         color: black;
     }
     iframe {
-        width: 310px;
+        width: 350px;
         height: 220px;
     }
 }
