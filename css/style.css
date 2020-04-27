@@ -54,7 +54,7 @@ img {
 
 @media (max-width: 426px) {
     .container-fluid {
-        height: 500px;
+        height: 550px;
         background-image: url(../img/03.jpg);
         background-size: cover;
     }
