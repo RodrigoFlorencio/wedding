@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    color: #5d4646;
+}
+.container-fluid {
+    height: 800px;
+    background-image: url(../img/03.jpg);
+    background-size: cover;
+}
+.nome {
+    padding-top: 40px;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#dday {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.video {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+iframe {
+    width: 850px;
+    height: 420px;
+}
+.rs {
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+}
+img {
+    margin-right: 15px;
+    width: 37px;
+    height: 37px;
+}
+
+
+/*     Media Query      */
+
+@media (max-width: 769px) {
+    iframe {
+        width: 700px;
+        height: 420px;
+    }
+}
+
+@media (max-width: 426px) {
+    .container-fluid {
+        height: 500px;
+        background-image: url(../img/03.jpg);
+        background-size: cover;
+    }
+    .nome {
+        font-size: 40px;
+    }
+    #dday {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .container a {
+        line-height: 2;
+        margin-left: 92px;
+        text-decoration: none;
+        color: black;
+    }
+    iframe {
+        width: 310px;
+        height: 220px;
+    }
+}

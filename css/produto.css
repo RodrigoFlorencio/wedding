@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+}
+.container-fluid {
+    height: 250px;
+}
+.nome {
+    padding-top: 40px;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Comic Neue', cursive;
+}
+.menu {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Comic Neue', cursive;
+}
+.item-menu  {
+    margin-right: 113px;
+    margin-left: 92px;
+    text-decoration: none;
+    color: black;
+}
+.container a:hover {
+    color: beige;
+}
+.produto {
+    margin-bottom: 50px;
+}
+.opcoes {
+    margin-left: 29px;
+}
+.opcao1, .opcao2, .opcao3 {
+    margin-top: 10px;
+    margin-right: 45px;
+    width: 70px;
+    height: 80px;
+    cursor: pointer;
+}
+#ft2, #ft3 {
+    display: none;
+}
+.price {
+    margin-top: 145px;
+    text-align: center;
+    font-size: 40px;
+}
+.btn-insta {
+    width: 300px;
+    height: 50px;
+    padding: 14px 70px;
+    color: white;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 426px) {
+    .container-fluid {
+        margin-bottom: 20px;
+    }
+    .nome {
+        font-size: 40px;
+    }
+    .item-menu {
+        line-height: 2;
+        margin-left: 92px;
+        text-decoration: none;
+        color: black;
+    }
+    .opcoes {
+        position: absolute;
+        margin-left: 33px;
+        margin-top: -675px;
+    }
+    .opcao1, .opcao2, .opcao3 {
+        margin-right: 20px;
+        width: 70px;
+        height: 80px;
+        cursor: pointer;
+    }
+    #ft2, #ft3 {
+        display: none;
+    }
+    .produto {
+        margin-bottom: 70px;
+        margin-left: 20px;
+    }
+    .description {
+        margin-top: 105px;
+    }
+    .description2 {
+        font-size: 17px;
+    }
+    .price {
+        margin-top: 5px;
+        text-align: center;
+        font-size: 35px;
+        margin-left: -50px;
+    }
+    .btn-insta {
+        width: 250px;
+        height: 50px;
+        margin-left: 20px;
+        padding: 14px 49px;
+        color: white;
+        background-color: #3f729b;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
