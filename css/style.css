@@ -41,6 +41,15 @@ img {
     width: 37px;
     height: 37px;
 }
+.lista {
+    font-size: 36px;
+    margin-left: 249px;
+    margin-bottom: 40px;
+}
+a {
+    text-decoration: none;
+    color: #5d4646;
+}
 
 
 /*     Media Query      */
@@ -60,11 +69,18 @@ img {
     }
     .nome {
         font-size: 40px;
+        text-align: center;
+        margin-bottom: 10px;
     }
     #dday {
         font-size: 40px;
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
+    }
+    .lista {
+        font-size: 36px;
+        text-align: center;
+        margin-left: 0px;
     }
     .container a {
         line-height: 2;
